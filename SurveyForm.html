@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+    <script src="SurveyForm.js"></script>
+</head>
+<body>
+    <div class="form-container">
+       <center><h1> Customer Survey Form</h1></center> 
+        <form id="survey-form">
+            
+            <div class="field">
+                <label for="first-name">First Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="first-name" required>
+            </div>
+            <br>
+            <div class="field">
+                <label for="last-name">Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="last-name" required>
+            </div>
+            <br>
+            <div class="field">
+                <label for="date-of-birth">Date of Birth: &nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="date-of-birth" required>
+            </div>
+            <br>
+            <div class="field">
+                <label for="country">Country: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="country" required>
+                    <option value="" disabled selected>Select a country</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Pakisgtan">Pakistan</option>
+                    <option value="USA">United States</option>
+                    <option value="CA">Canada</option>
+                    <!-- Add more countries here -->
+                </select>
+            </div>
+            <br>
+            <div class="field">
+                <label>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="checkbox" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div class="field">
+                <label for="profession">Profession: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="profession" required>
+            </div>
+            <br>
+            <div class="field">
+                <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" id="email" required>
+            </div>
+            <br>
+            <div class="field">
+                <label for="mobile-number">Mobile Number:&nbsp;</label>
+                <input type="tel" id="mobile-number" required>
+            </div>
+            <br>
+            <div class="field">
+                <button type="submit" id="submit-button">Submit</button> &nbsp;&nbsp;
+                <button type="button" id="reset-button">Reset</button>
+            </div>
+            <br>
+        </form>
+    </div>
+</body>
+</html>

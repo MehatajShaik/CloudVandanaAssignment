@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(32, 171, 231);
+}
+h1{
+    color: white;
+}
+form{
+    padding: 50px;
+    background-color: white;
+}
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+.field {
+    margin-bottom: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(32, 171, 231);
+    color: white;
+}
